@@ -12,9 +12,10 @@ return ("ciao " + nome)
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log( saluto(userName));
+saluto(userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+console.log( saluto(userName));
 
 // versione arrow
 

@@ -16,6 +16,7 @@ function nuovoArray(array) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(nuovoArray(names));
+nuovoArray(names);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+console.log(nuovoArray(names));
