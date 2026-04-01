@@ -16,6 +16,7 @@ console.log( saluto(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 
+// versione arrow
 
-
-
+const salutoComeArrow = (nome) => "ciao " + nome;
+console.log(salutoComeArrow(userName));
